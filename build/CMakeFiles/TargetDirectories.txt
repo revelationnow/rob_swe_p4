@@ -35,3 +35,11 @@
 /home/anoop/Work/udacity/robotics_sw_engineer/p2/build/gtest/googlemock/gtest/CMakeFiles/list_install_components.dir
 /home/anoop/Work/udacity/robotics_sw_engineer/p2/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir
 /home/anoop/Work/udacity/robotics_sw_engineer/p2/build/gtest/googlemock/gtest/CMakeFiles/rebuild_cache.dir
+/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/CMakeFiles/install/strip.dir
+/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/CMakeFiles/install/local.dir
+/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/CMakeFiles/test.dir
+/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/CMakeFiles/list_install_components.dir
+/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/CMakeFiles/edit_cache.dir
+/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/CMakeFiles/_catkin_empty_exported_target.dir
+/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/CMakeFiles/rebuild_cache.dir
+/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/CMakeFiles/install.dir
