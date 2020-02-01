@@ -1,2 +1,2 @@
-my_robot
+ball_chaser:my_robot
 -DCATKIN_DEVEL_PREFIX=/home/anoop/Work/udacity/robotics_sw_engineer/p2/devel -DCMAKE_INSTALL_PREFIX=/home/anoop/Work/udacity/robotics_sw_engineer/p2/install -G Unix Makefiles
