@@ -66,13 +66,14 @@ void process_image_callback(const sensor_msgs::Image img)
     ROS_INFO("X_coord : %f, Step : %d",average_x_coord, img.step);
 
     // Proportional controller
-    float error = (img.step - 2*average_x_coord);
-    float P = 2;
-    ang_z = P * ( error * M_PI)/(4 * img.step);
+    float error = (img.step - 2*average_x_coord)/(2 * img.step);
+    float P = 1.5;
+    ang_z = std::min(M_PI/2, std::max(-1 * M_PI/2, P * ( error * M_PI)/2));
 
     //Differential Controller
-    float change_in_error = (prev_error - error)/img.step;
-    //ang_z = change_in_error * ang_z;
+    float change_in_error = (prev_error - error);
+    float D = -0.2;
+    ang_z = D * change_in_error + ang_z;
 
     // Slow down when angle is large
     lin_x = std::max(0.1, 1 - (fabs((2 * ang_z)/M_PI)));

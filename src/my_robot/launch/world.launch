@@ -3,7 +3,7 @@
 <launch>
   <!-- Robot pose -->
   <arg name="x" default="-12"/>
-  <arg name="y" default="-3"/>
+  <arg name="y" default="-2.8"/>
   <arg name="z" default="0"/>
   <arg name="roll" default="0"/>
   <arg name="pitch" default="0"/>
@@ -31,5 +31,5 @@
               -x $(arg x) -y $(arg y) -z $(arg z)
               -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
   <!--launch rviz-->
-  <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d $(find ball_chaser)/rviz_config/rviz_config.rviz"/>
 </launch>
