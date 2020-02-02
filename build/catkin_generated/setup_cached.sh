@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD="/home/anoop/Work/udacity/robotics_sw_engineer/p2/build"
-export PYTHONPATH="/home/anoop/Work/udacity/robotics_sw_engineer/p2/devel/lib/python2.7/dist-packages:$PYTHONPATH"
