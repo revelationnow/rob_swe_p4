@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anoop/Work/udacity/robotics_sw_engineer/p2/src
+CMAKE_SOURCE_DIR = /home/anoop/Work/udacity/robotics_sw_engineer/p3/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anoop/Work/udacity/robotics_sw_engineer/p2/build
+CMAKE_BINARY_DIR = /home/anoop/Work/udacity/robotics_sw_engineer/p3/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/anoop/Work/udacity/robotics_sw_engineer/p2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anoop/Work/udacity/robotics_sw_engineer/p2/src /home/anoop/Work/udacity/robotics_sw_engineer/p2/src /home/anoop/Work/udacity/robotics_sw_engineer/p2/build /home/anoop/Work/udacity/robotics_sw_engineer/p2/build /home/anoop/Work/udacity/robotics_sw_engineer/p2/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/anoop/Work/udacity/robotics_sw_engineer/p3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anoop/Work/udacity/robotics_sw_engineer/p3/src /home/anoop/Work/udacity/robotics_sw_engineer/p3/src /home/anoop/Work/udacity/robotics_sw_engineer/p3/build /home/anoop/Work/udacity/robotics_sw_engineer/p3/build /home/anoop/Work/udacity/robotics_sw_engineer/p3/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

@@ -67,14 +67,14 @@ set(my_robot_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(my_robot_SOURCE_PREFIX /home/anoop/Work/udacity/robotics_sw_engineer/p2/src/my_robot)
-  set(my_robot_DEVEL_PREFIX /home/anoop/Work/udacity/robotics_sw_engineer/p2/devel)
+  set(my_robot_SOURCE_PREFIX /home/anoop/Work/udacity/robotics_sw_engineer/p3/src/my_robot)
+  set(my_robot_DEVEL_PREFIX /home/anoop/Work/udacity/robotics_sw_engineer/p3/devel)
   set(my_robot_INSTALL_PREFIX "")
   set(my_robot_PREFIX ${my_robot_DEVEL_PREFIX})
 else()
   set(my_robot_SOURCE_PREFIX "")
   set(my_robot_DEVEL_PREFIX "")
-  set(my_robot_INSTALL_PREFIX /home/anoop/Work/udacity/robotics_sw_engineer/p2/install)
+  set(my_robot_INSTALL_PREFIX /home/anoop/Work/udacity/robotics_sw_engineer/p3/install)
   set(my_robot_PREFIX ${my_robot_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/anoop/Work/udacity/robotics_sw_engineer/p2/install/lib;/home/anoop/Work/udacity/robotics_sw_engineer/p2/devel/lib;/home/anoop/Work/udacity/robotics_sw_engineer/simple_mover/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/anoop/Work/udacity/robotics_sw_engineer/p3/install/lib;/home/anoop/Work/udacity/robotics_sw_engineer/p3/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

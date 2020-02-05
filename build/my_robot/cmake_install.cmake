@@ -1,8 +1,8 @@
-# Install script for directory: /home/anoop/Work/udacity/robotics_sw_engineer/p2/src/my_robot
+# Install script for directory: /home/anoop/Work/udacity/robotics_sw_engineer/p3/src/my_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/anoop/Work/udacity/robotics_sw_engineer/p2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/anoop/Work/udacity/robotics_sw_engineer/p3/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/catkin_generated/installspace/my_robot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/anoop/Work/udacity/robotics_sw_engineer/p3/build/my_robot/catkin_generated/installspace/my_robot.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot/cmake" TYPE FILE FILES
-    "/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/catkin_generated/installspace/my_robotConfig.cmake"
-    "/home/anoop/Work/udacity/robotics_sw_engineer/p2/build/my_robot/catkin_generated/installspace/my_robotConfig-version.cmake"
+    "/home/anoop/Work/udacity/robotics_sw_engineer/p3/build/my_robot/catkin_generated/installspace/my_robotConfig.cmake"
+    "/home/anoop/Work/udacity/robotics_sw_engineer/p3/build/my_robot/catkin_generated/installspace/my_robotConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot" TYPE FILE FILES "/home/anoop/Work/udacity/robotics_sw_engineer/p2/src/my_robot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot" TYPE FILE FILES "/home/anoop/Work/udacity/robotics_sw_engineer/p3/src/my_robot/package.xml")
 endif()
 

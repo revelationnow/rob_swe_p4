@@ -1,4 +1,4 @@
-prefix=/home/anoop/Work/udacity/robotics_sw_engineer/p2/install
+prefix=/home/anoop/Work/udacity/robotics_sw_engineer/p3/install
 
 Name: my_robot
 Description: Description of my_robot

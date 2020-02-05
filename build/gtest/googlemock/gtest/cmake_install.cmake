@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/anoop/Work/udacity/robotics_sw_engineer/p2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/anoop/Work/udacity/robotics_sw_engineer/p3/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

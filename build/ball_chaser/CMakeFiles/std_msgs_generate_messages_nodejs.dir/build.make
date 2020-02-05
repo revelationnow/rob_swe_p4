@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anoop/Work/udacity/robotics_sw_engineer/p2/src
+CMAKE_SOURCE_DIR = /home/anoop/Work/udacity/robotics_sw_engineer/p3/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anoop/Work/udacity/robotics_sw_engineer/p2/build
+CMAKE_BINARY_DIR = /home/anoop/Work/udacity/robotics_sw_engineer/p3/build
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ ball_chaser/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build: std_msgs_gen
 .PHONY : ball_chaser/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 
 ball_chaser/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/anoop/Work/udacity/robotics_sw_engineer/p2/build/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/anoop/Work/udacity/robotics_sw_engineer/p3/build/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : ball_chaser/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 ball_chaser/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/anoop/Work/udacity/robotics_sw_engineer/p2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anoop/Work/udacity/robotics_sw_engineer/p2/src /home/anoop/Work/udacity/robotics_sw_engineer/p2/src/ball_chaser /home/anoop/Work/udacity/robotics_sw_engineer/p2/build /home/anoop/Work/udacity/robotics_sw_engineer/p2/build/ball_chaser /home/anoop/Work/udacity/robotics_sw_engineer/p2/build/ball_chaser/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/anoop/Work/udacity/robotics_sw_engineer/p3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anoop/Work/udacity/robotics_sw_engineer/p3/src /home/anoop/Work/udacity/robotics_sw_engineer/p3/src/ball_chaser /home/anoop/Work/udacity/robotics_sw_engineer/p3/build /home/anoop/Work/udacity/robotics_sw_engineer/p3/build/ball_chaser /home/anoop/Work/udacity/robotics_sw_engineer/p3/build/ball_chaser/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ball_chaser/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 
