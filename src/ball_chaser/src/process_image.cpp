@@ -82,7 +82,7 @@ void process_image_callback(const sensor_msgs::Image img)
     prev_error = error;
   }
 
-  drive_robot(lin_x, ang_z);
+  //drive_robot(lin_x, ang_z);
 }
 
 int main(int argc, char** argv)
