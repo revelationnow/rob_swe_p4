@@ -1,8 +1,0 @@
-prefix=/home/anoop/Work/udacity/robotics_sw_engineer/p3/install
-
-Name: my_robot
-Description: Description of my_robot
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
