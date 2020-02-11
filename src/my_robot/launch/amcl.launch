@@ -8,8 +8,8 @@
     <param name="odom_model_type" value="diff-corrected"/>
     <param name="base_frame_id" value="robot_footprint"/>
     <param name="global_frame_id" value="map"/>
-    <param name="initial_pose_x" value="-12"/>
-    <param name="initial_pose_y" value="-2.8"/>
+    <param name="initial_pose_x" value="-2"/>
+    <param name="initial_pose_y" value="-19"/>
     <param name="initial_pose_yaw" value="1.5"/>
     <param name="update_min_a" value="0.15"/>
     <param name="update_min_d" value="0.5"/>
